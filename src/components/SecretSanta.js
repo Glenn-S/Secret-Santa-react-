@@ -206,13 +206,13 @@ class SecretSanta extends React.Component {
                 className="ui dropdown"
                 name="partner"
                 onChange={this.handleInput}
-              >{this.renderUsers()}</select>
+              >{this.renderUsers()}</select> 
             </div>
             <button className="ui button" type="submit">Add</button>
           </form>
         </div>
       </div>
-    ); // add in checkbox for pairing and create dynamic drop down to pair the two
+    ); // select is causing a weird update issue
   }
 }
 
