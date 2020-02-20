@@ -205,8 +205,9 @@ class SecretSanta extends React.Component {
               <select 
                 className="ui dropdown"
                 name="partner"
+                value={this.state.partner}
                 onChange={this.handleInput}
-              >{this.renderUsers()}</select> 
+              >{this.renderUsers()}</select>
             </div>
             <button className="ui button" type="submit">Add</button>
           </form>
